@@ -1,0 +1,26 @@
+*{ 
+    
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(245, 233, 218);
+}
+.atc{
+    font-size: 2em;
+}
+.klasifikacija{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+ul{
+    list-style: none;
+}
+li.klas{
+    font-size: large;
+    font-weight: bold;
+    
+  
+}
+li{
+    font-weight: normal;
+}
