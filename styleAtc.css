@@ -2,11 +2,18 @@
     
     box-sizing: border-box;
 }
+@font-face{
+    font-family: atcFont ;
+    src: url(Font/TiroBangla-Regular.ttf);
+}
 body {
     background-color: rgb(245, 233, 218);
+    background-image: radial-gradient(circle,rgb(245, 233, 218) 30%, rgb(247, 207, 160) 100%)
+   
 }
-.atc{
-    font-size: 2em;
+.atc , .mkb10{
+    font-size: 2rem;
+   
 }
 .klasifikacija{
     margin-top: 30px;
@@ -19,8 +26,16 @@ li.klas{
     font-size: large;
     font-weight: bold;
     
-  
 }
+
 li{
     font-weight: normal;
+    font-family: 'atcFont', Times, serif;
+}
+.mkb{
+    font-size: large;
+    margin-left: 50px;
+    font-family: 'atcFont', Times, serif;
+    
+
 }

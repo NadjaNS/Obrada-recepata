@@ -7,19 +7,26 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <link rel="stylesheet" />
-    <title>Baza lekova</title>
+
+    <title>Baza recepata</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>BAZA RECEPATA</h1>
-      <i class="fas fa-capsules"></i>
+      <h1><i class="fas fa-hand-holding-medical"></i>BAZA RECEPATA</h1>
+
       <nav>
         <ul>
           <li>Lekovi</li>
           <li><a href="/indexATC.html">ATC</a></li>
-          <li>MKB-10</li>
+          <li><a href="/indexATC.html">MKB-10</a></li>
         </ul>
       </nav>
     </header>
@@ -27,7 +34,12 @@
     <form action="#" method="get">
       <fieldset>
         <p class="forma">Unesite BROJ ZDRAVSTVENE KNJIZICE</p>
-        <input type="search" name="pretraga" id="unos" />
+        <input
+          type="search"
+          name="pretraga"
+          id="unos"
+          placeholder="20074539468"
+        />
         <button type="submit" id="btn">Pretrazi</button>
         <p class="error"></p>
       </fieldset>

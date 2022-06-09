@@ -1,18 +1,20 @@
-*{ 
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
     background-color: rgb(245, 233, 218);
+    background-image: radial-gradient(circle,rgb(245, 233, 218) 30%, rgb(247, 207, 160) 100%)
 }
 
 h1 {
+    font-size: 3em;
     text-align: center;
     font-style: oblique;
-    
-    margin-top: 30px;
-    border-bottom: solid rgba(29, 29, 161, 0.363) 1px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: solid 1px ;
 }
 ul{
     list-style: none;
@@ -20,34 +22,30 @@ ul{
     flex-direction: row;
     justify-content: space-around;
     margin-top: 20px;
-    
-    
 }
-nav.li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
-    border-radius: 1em ;
+nav li {
     background-color: rgb(247, 226, 201) ;
-    padding: 6px 20px;
+    font-size: 2em;
+    
 }
 form{
     margin-top: 50px;
     text-align: center;
 }
-p.forma{
-    font-size: x-large;
+.forma{
+    font-size: 2em;
     margin-top: 20px;
 }
 #unos{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 1.4em;
 }
 #unos:hover {
     box-shadow: 15px 23px 26px 3px rgba(0,0,0,0.27)
 }
 button {
-	box-shadow: 2px 2px 4px 0px #899599;
+	box-shadow: 2px 2px 4px #899599;
 	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
 	background-color:#ededed;
 	border-radius:12px;
@@ -66,24 +64,25 @@ button {
 	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
 	background-color:#bab1ba;
 }
-
-
-    
-    
-    
-   
-
+.error{
+    font-size: 1.5em;
+    color: red;
+}
 .podaci{
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     border-bottom: 1px dotted gray;
-    font-size: large;
+    font-size: 1.7em;
     
 }
 .pacijent {
    margin-top: 10px;
    margin-bottom: 5px;
    font-weight: bold;
+}
+#vreme {
+    font-size: 1.5em;
+    
 }
