@@ -1,4 +1,4 @@
-document.onclick = () => {
+const btn=document.getElementById("btn").addEventListener("click",function(){
 
 
 const vreme = new Date();
@@ -22,11 +22,11 @@ document.getElementById(`btn`).addEventListener(`click`,function(e){
 document.getElementById(`btn`).addEventListener(`click`,filterChanged);
 dohvatiPodatke("pacijenti", ispisiPacijente);
 
-function dohvatiPodatke(file, callback) {
+function dohvatiPodatke(pacijenti, ispisiPacijente) {
   let zahtev = new XMLHttpRequest();
   zahtev.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
-      callback(JSON.parse(this.responseText)); 
+      ispisiPacijente(JSON.parse(this.responseText)); 
     };
     if (this.status >= 400) {
       
@@ -80,8 +80,8 @@ function searchFilter(data) {
     
     
     
-    
-};
+});   
+
 
 
 
