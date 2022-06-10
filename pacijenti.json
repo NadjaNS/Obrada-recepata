@@ -1,0 +1,95 @@
+[
+    {
+      "brk": "20058375831",
+      "ime": "NADEZDA CORTANOVIC",
+      "lbo": "26902771323",
+      "datum_rodjenja": "15.07.1982",
+      "lekovi": "HEFEROL cps 30x350mg (drugo)"
+
+    },
+    {
+        "brk": "39982467930",
+        "ime": "SVETOZAR BAKALIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "26.08.1982",
+        "lekovi": "LEXILIUM tbl 30x3mg (drugo)"
+    },
+    {
+        "brk": "66298447791",
+        "ime": "ALEKSANDRA JOVIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "01.07.1978",
+        "lekovi": "MONIZOL tbl 30x40mg (drugo)"
+    },
+    {
+        "brk": "56576078315",
+        "ime": "JOVANA SAVIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "03.05.2018",
+        "lekovi":  "PANKLAV forte sir.  (250+62,5)mg/5ml a100ml (antiinfektivno sredstvo)"
+    },
+    {
+        "brk": "89951962518",
+        "ime": "MARIJA TEPIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "03.05.2020",
+        "lekovi": "PANATERM sirup 120mg/5ml  a 125ml (drugo)"
+    },
+    {
+        "brk": "92252427997",
+        "ime": "MARIJA FLORIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "12.12.2019",
+        "lekovi": "BACTRIM sirup (200+40mg)/5ml a 100ml (antiinfektivno sredstvo)"
+    },
+    {
+        "brk": "67466738377",
+        "ime": "SOFIJA SIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "02.02.2009",
+        "lekovi": "XYZAL sirup 0.5mg/ml a 200ml (drugo)"
+    },
+    {
+        "brk": "35980490085",
+        "ime": "MAJA UVERIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "17.07.1980",
+        "lekovi": "LOFOCIN film tbl 10x500mg (anti-infektivno sredstvo)"
+    },
+    {
+        "brk": "51948597791",
+        "ime": "SINISA BORIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "08.12.1956",
+        "lekovi": "SALOFALK 500 tbl 50x500mg (drugo)"
+    },
+    {
+        "brk": "19461462176",
+        "ime": "NIKOLA JOVANOVIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "07.09.1960",
+        "lekovi": "KLOMETOL tbl 30x10mg (drugo)" 
+    },
+    {
+        "brk": "43834210265",
+        "ime": "JELICA RAJIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "05.09.1949",
+        "lekovi": "DUROFILIN retard cps 40x250mg (drugo)"
+    },
+    {
+        "brk": "98869840356",
+        "ime": "NEMANJA CURCIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "06.03.1940",
+        "lekovi": "BINEVOL, 30 po 5 mg (drugo)"
+    },
+    {
+        "brk": "26383750159",
+        "ime": "MIHAJLO ILIC",
+        "lbo": "26902771323",
+        "datum_rodjenja": "130.01.2006",
+        "lekovi": "CEFZIL SIRUP 1x60ml(250mg/5ml) (antiinfektivno sredstvo)"
+    }
+    
+]
