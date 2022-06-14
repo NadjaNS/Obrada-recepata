@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 body {
+    width: 100%;
+    height: 100%;
     background-color: rgb(245, 233, 218);
-    background-image: radial-gradient(circle,rgb(245, 233, 218) 30%, rgb(247, 207, 160) 100%)
+    background-image: radial-gradient(circle,rgb(245, 233, 218) 30%, rgb(247, 207, 160) 100%);
+    
 }
 
 h1 {
@@ -84,5 +87,11 @@ button {
 }
 #vreme {
     font-size: 1.5em;
+    
+}
+footer {
+    padding: 10px 10px 10px 10px ;
+    bottom: 0;
+    position: fixed;
     
 }
