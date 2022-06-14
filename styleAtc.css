@@ -6,11 +6,7 @@
     font-family: atcFont ;
     src: url(Font/TiroBangla-Regular.ttf);
 }
-body {
-    background-color: rgb(245, 233, 218);
-    background-image: radial-gradient(circle,rgb(245, 233, 218) 30%, rgb(247, 207, 160) 100%)
-   
-}
+
 .atc , .mkb10{
     font-size: 2rem;
    
@@ -39,3 +35,46 @@ li{
     
 
 }
+
+
+body{
+	margin:0;
+	padding:0;
+	background: url(Images/pozadin.png) repeat 0 0;;
+    background-size:contain ;
+	-webkit-animation: 20s linear 0s normal none infinite animate;
+	-moz-animation: 20s linear 0s normal none infinite animate;
+	-ms-animation: 20s linear 0s normal none infinite animate;
+	-o-animation: 20s linear 0s normal none infinite animate;
+	animation: 20s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+
+ 
+
